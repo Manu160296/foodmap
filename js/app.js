@@ -1,7 +1,6 @@
-$(document).ready(function () {
-  /*  $('.preloader').fadeOut( 3000) */
-  setTimeout(function () {
+$(document).ready(function() {
+// redireccionando la pagina:
+  setTimeout(function() {
     window.location.href = 'views/home.html';
-  },3000);
-         
+  }, 3000);         
 });

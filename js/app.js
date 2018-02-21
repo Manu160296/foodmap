@@ -28,7 +28,7 @@ userRegister.on('click', function() {
   var password = $('.password-js').val();
   if (email && password) {
     userRegister.on('click', () => {
-      window.location.href = 'views/home.html';
+      window.location.href = 'home.html';
     });
   }
   // console.log(email);

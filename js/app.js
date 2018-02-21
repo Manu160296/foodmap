@@ -92,4 +92,7 @@ signIn.on('click', function() {
   });
 });
 
-
+// boton regresar : 
+$('.back-js').on('click', () => {
+  window.location.href = '../index.html';
+});

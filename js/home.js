@@ -87,4 +87,8 @@ $(document).ready(function() {
 	    }
     }
   });
+  
+  $('.styles-exit').on('click', () => {
+    window.location.href = '../index.html';
+  });
 });
